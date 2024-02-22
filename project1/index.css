@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'verdana',sans-serif;
+}
+body{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+.parent1 a:hover{
+    background-color: rgb(184, 184, 184);          
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding:13px ;
+}
+a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(67, 66, 66);
+}
+.parent2{
+    background-image:url(architect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:initial;
+    width: 100vw;
+    height: 500px;
+}
+.parent2 p{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    padding: 15%;
+}
+.parent2 span{
+    background-color: black;
+}
+.parent3{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-left: 3%;
+
+}
+.parent3 img{
+    width: 100%;
+    height: auto;
+    display: block
+}
+.photo1{
+    position:relative
+}
+.photoa{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left:2px;
+    font-size: 25px;
+}
+.photo2{
+    position: relative;
+}
+.photob{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo3{
+    position: relative;
+}
+.photoc{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo4{
+    position: relative;
+}
+.photod{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo5{
+    position: relative;
+}
+.photoe{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo6{
+    position: relative;
+}
+.photof{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo7{
+    position: relative;
+}
+.photoi{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+.photo8{
+    position: relative;
+}
+.photoh{
+    position:absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+@media only screen and (max-width:500px) {
+    .parent3{
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.parent4{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-left: 3%;
+}
+img{
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+}
+button{
+    width: 100%;
+    border: 0px;
+    height: 30px;
+    
+}
+@media only screen and (max-width:500px) {
+    .parent4{
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.parent5{
+    width: 100%;
+    margin-left: 3%;
+}
+input{
+    width: 95%;
+    height: 40px;
+}
+.parent6{
+    width: 100%;
+    margin-left: 3%;
+}
+.parent6 img{
+    width: 95%;
+    height:500px;
+
+}
+.footer p{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    /*padding: 10px;*/
+    color: white;
+}
+.footer a{
+    color: white;
+}
+hr{
+    border: 1px solid aliceblue;
+ }
+ 
+
+
+   
+

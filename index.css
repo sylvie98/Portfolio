@@ -1,0 +1,145 @@
+*{
+    font-family: 'verdana',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*width: 100%;*/
+    /*border: 1px solid red;*/
+    background-color:  #fffcf2;
+    
+}
+#header{
+    width: 100%;
+    border: 1px solid rgb(243, 152, 152);
+    background-color:white;
+    position: fixed;
+    top: 0;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
+    padding: 2%;
+}
+/*.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    position: fixed;
+}*/
+.logo img{
+    float: left;
+    width: 20%;
+   position: fixed;
+}
+#main{
+    border:1px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 2%;
+}
+.parent2{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap: 70px;
+    border: 0; 
+    float: right;
+}
+.title{
+    padding-top: 35%;
+    font-size: 35px;
+}
+.cv button:hover {
+    background-color: white;
+    border-radius: 10%;
+    height: 50px;
+    background-color:#e4c1f9;
+}
+.cv a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: #e4c1f9;
+}
+.about-me{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 1px solid rgb(202, 193, 193);
+    border-radius: 40px; 
+     
+}
+.service{
+    width: 80%;
+    height: 82%;
+    background-color: white;
+    border: 1px solid rgb(202, 193, 193);
+    border-radius: 40px;
+}
+.project{
+    display: flex;
+    gap: 20px;
+}
+/* .card{
+    border: 1px solid rgb(202, 193, 193);
+    width: 25%;
+    height: 90px;
+    background-color: white;
+    border-radius: 40px;
+} */
+.card img{
+    width: 40px;
+    height: 15px;
+}
+ a{
+    text-decoration: none;
+}
+input{
+    border-radius: 10px;
+    width: 85%;
+    border: 1px solid rgb(202, 193, 193);
+    height: 40px;
+}
+
+li {
+    list-style-type: none;
+
+}
+#parent3{
+    display: flex;
+    justify-content: center;
+}
+.footer img{
+    width: 70px;
+    height: 70px;
+    border-radius:50px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    border: 1px solid blanchedalmond;
+    border-radius: 50px;
+    width: 80%;
+}
+.footer ul {
+    display: flex;
+    gap: 10%;
+    padding: 2%;
+}
+.footer a{
+    color: white;
+}
+.talk a{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    width: 90px;
+}
