@@ -56,14 +56,14 @@ body{
     background-color: white;
     border-radius: 10%;
     height: 50px;
-    background-color:#fffcf2;
+    background-color:rgb(123, 118, 118);
 }
 .cv a{
     text-decoration: none;
     color: black;
 }
 a:hover{
-    background-color: #fffcf2;
+    background-color: rgb(123, 118, 118);
 }
 .about-me{
     width: 80%;
