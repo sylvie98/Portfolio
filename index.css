@@ -11,7 +11,6 @@ body{
 }
 #header{
     width: 100%;
-    border: 1px solid rgb(243, 152, 152);
     background-color:white;
     position: fixed;
     top: 0;
@@ -37,7 +36,6 @@ body{
    position: fixed;
 }
 #main{
-    border:1px solid blueviolet;
     display: flex;
     justify-content: space-between;
     padding: 7% 2%;
@@ -58,14 +56,14 @@ body{
     background-color: white;
     border-radius: 10%;
     height: 50px;
-    background-color:#e4c1f9;
+    background-color:#fffcf2;
 }
 .cv a{
     text-decoration: none;
     color: black;
 }
 a:hover{
-    background-color: #e4c1f9;
+    background-color: #fffcf2;
 }
 .about-me{
     width: 80%;
@@ -88,13 +86,13 @@ a:hover{
 }
 .card{
     border: 1px solid rgb(202, 193, 193);
-    width: 30%;
+    width: 25%;
     height: 90px;
     background-color: white;
     border-radius: 40px;
 } 
 .card img{
-    width: 40px;
+    width: 30px;
     height: 15px;
 }
  a{
@@ -125,7 +123,7 @@ li {
     background-color: black;
     border: 1px solid blanchedalmond;
     border-radius: 50px;
-    width: 100%;
+    width: 90%;
 }
 .footer ul {
     display: flex;
@@ -141,5 +139,5 @@ li {
     color: black;
     display: flex;
     justify-content: flex-end;
-    width: 90px;
+    width: 60px;
 }
