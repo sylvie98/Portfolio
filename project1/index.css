@@ -46,7 +46,7 @@ a{
     color: rgb(67, 66, 66);
 }
 .parent2 {
-    background-image: url(image/architect.jpg);
+    background-image: url(architect.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
